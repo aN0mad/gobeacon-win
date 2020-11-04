@@ -1,5 +1,5 @@
 # gobeacon
-A small beaconing windows implant that daemonizes itself (it's golang...) and calls out to the user. If the shell dies, the implant beacons again in 5 seconds.
+A small beaconing windows implant that repeatedly calls out to the user. If the shell dies, the implant beacons again in 5 seconds.
 
 ## Compilation
 ```go
@@ -31,4 +31,4 @@ From inside the shell
 beacon> exit
 ```
 ### Creds
-Creds to this blogpost where I ripped the daemonization code from: https://socketloop.com/tutorials/golang-daemonizing-a-simple-web-server-process-example
+Creds to this blogpost where I ripped some daemonization code from: https://socketloop.com/tutorials/golang-daemonizing-a-simple-web-server-process-example
